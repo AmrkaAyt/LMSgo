@@ -1,3 +1,5 @@
+package Task1
+
 // easiest sol
 // func twoSum(nums []int, target int) []int {
 //	for i, r := range nums {
@@ -12,7 +14,7 @@
 
 // best sol
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for i, n := range nums {
 		j, r := m[target-n]

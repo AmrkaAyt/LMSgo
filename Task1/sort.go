@@ -1,4 +1,6 @@
-func heapSort(arr []int) {
+package Task1
+
+func HeapSort(arr []int) {
 	n := len(arr)
 	for i := n/2 - 1; i >= 0; i-- {
 		heapify(arr, i, n)
